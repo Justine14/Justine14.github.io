@@ -13,7 +13,7 @@ body {
 	bottom: 0;
 	left: 0;
 	background-color: #ffe4e1;
-	overflow-x: hidde;		/* Do not horizontal scroll */
+	overflow-x: hidden;		/* Do not horizontal scroll */
 	padding-top: 50px;
 }
 
