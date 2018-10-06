@@ -54,10 +54,12 @@ body {
 	text-decoration: none;
 }
 
+/*
 .navbar a:hover {
     background: #ddd;
     color: black;
 }
+*/
 
 .navbar-left {
 	float: left;
