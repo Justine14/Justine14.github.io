@@ -40,13 +40,13 @@ body {
 	background-color: transparent;
 	position: fixed;
 	top: 0;
-	width: 100%;
+	width: 80%;
 }
 
 .navbar a {
 	float: right;
 	display: block;
-	color: #000000;
+	color: #191919;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
