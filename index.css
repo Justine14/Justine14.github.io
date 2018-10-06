@@ -58,3 +58,7 @@ body {
     background: #ddd;
     color: black;
 }
+
+.navbar-brand-top {
+	float: left;
+}
