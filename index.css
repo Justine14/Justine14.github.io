@@ -7,7 +7,7 @@ body {
 /************* sidenav menu **********/
 .sidenav {
 	height: 80%;
-	width: 130px;
+	width: 100px;
 	position: fixed;
 	z-index: 1;				/* z-index specifies the stack order of an element. The greater the stack, the more in front it will be */
 	bottom: 0;
