@@ -39,9 +39,9 @@ body {
 	overflow: hidden;
 	background-color: transparent;
 	position: fixed;
-	font-size: 16;
+	/*font-size: 16;*/
 	top: 0;
-	width: 120%;
+	width: 80%;
 }
 
 .navbar a {
