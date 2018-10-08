@@ -37,11 +37,11 @@ body {
 /******************** Navigation Bar ****************/
 .navbar {
 	overflow: hidden;
-	background-color: transparent;
+	background-color: blue;
 	position: fixed;
 	/*font-size: 16;*/
 	top: 0;
-	width: 80%;
+	width: 100%;
 }
 
 .navbar a {
