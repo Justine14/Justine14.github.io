@@ -1,5 +1,3 @@
-/**
-
 <script>
 // Get the elements with class="column"
 var elements = document.getElementsByClassName("column");
@@ -15,5 +13,3 @@ for (i = 0; i < elements.length; i++) {
 }
 
 </script>
-
-**/
