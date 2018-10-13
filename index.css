@@ -67,6 +67,13 @@ body {
 
 
 
+/****************** all pages width *********************/
+div.content {
+	width: 1000px;
+}
+
+
+
 /********************** For the portfolio ********************/
 /*.row {
     display: -ms-flexbox; /* IE 10 */
