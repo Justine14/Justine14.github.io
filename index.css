@@ -3,37 +3,6 @@ body {
 	background-color: MistyRose;
 }
 
-
-/************* sidenav menu **********/
-.sidenav {
-	height: 80%;
-	width: 120px;
-	position: fixed;
-	z-index: 1;				/* z-index specifies the stack order of an element. The greater the stack, the more in front it will be */
-	bottom: 0;
-	left: 0;
-	background-color: transparent;
-	overflow-x: hidden;		/* Do not horizontal scroll */
-	padding-top: 100px;
-}
-
-/* side navigation menu links */
-.sidenav menu {
-	padding: 6px 8px 6px 16px;
-	text-decoration: none;
-	font-size: 12;
-	color: #262525;
-	display: block;
-}
-
-
-/* change colour of navigation links when hovering over */
-.sidenav menu:hover {
-	color: #f1f1f1;
-}
-
-
-
 /******************** Navigation Bar ****************/
 .navbar {
 	overflow: hidden;
@@ -53,18 +22,35 @@ body {
 	text-decoration: none;
 }
 
-/*
-.navbar a:hover {
-    background: #ddd;
-    color: black;
-}
-*/
-
 .navbar-left {
 	float: left;
-	padding-left: 80px;
+	padding-left: 80;
 }
 
+.navbar {
+	min-height: 80px;
+}
+
+.navbar-brand {
+	padding: 0 15px;
+	height: 80px;
+	line-height: 80px;
+}
+
+.navbar-toggle {
+	/* (80px - button height 34px) / 2 = 23px */
+	margin-top: 23px;
+	padding: 9px 10px !important;
+}
+
+@media (min-width: 768px) {
+	.navbar-nav > li > a {
+		/* (80px - line-height of 27px) / 2 = 26.5px */
+		padding-top: 26.5px;
+		padding-bottom: 26.5px;
+		line-height: 27px;
+	}
+}
 
 
 /****************** all pages width *********************/
