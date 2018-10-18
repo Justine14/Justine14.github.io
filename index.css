@@ -1,8 +1,8 @@
 
 body {
-	background-color: MistyRose;
+	background-color: #EEE2DC;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 16px;
+	font-size: 20px;
 }
 
 /******************** Navigation Bar ****************/
@@ -31,24 +31,23 @@ body {
 
 
 
-/****************** all pages width *********************/
+/*********************** all pages width ******************************/
 div.content {
 	width: 50%;
 }
 
-div.week3 {
-	width: 50%
-}
 
-
-
-/***************** for Art 321 Week 3 images *****************/
+/***************** for Art 321 Week 3 images and text *****************/
 .center {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
 } 
+
+div.week3 {
+	width: 50%
+}
 
 
 
