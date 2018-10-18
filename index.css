@@ -38,7 +38,7 @@ div.content {
 
 
 /***************** for Art 321 Week 3 images and text *****************/
-.center {
+div.center {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
