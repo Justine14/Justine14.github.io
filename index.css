@@ -7,9 +7,12 @@ body {
 
 /******************** Navigation Bar ****************/
 .navbar {
+	list-style-type: none;
 	overflow: hidden;
 	background-color: #EAE7DC;
 	position: fixed;
+	margin: 0;
+	padding: 0;
 	top: 0;
 	width: 100%;
 }
@@ -25,7 +28,6 @@ body {
 
 .navbar-left {
 	float: left;
-	/* padding-left: 100px; */
 }
 
 
