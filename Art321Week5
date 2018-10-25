@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro:200"> 
+	<title>Justine Bui Art 321</title>
+</head>
+
+
+
+<body>
+
+<!-- Code for the navigation bar -->
+<div class="navbar">
+	<a href="Contact">Contact</a>
+	<a href="CV">CV</a>
+	<a href="./Art321.html">Art 321</a>
+	<a href="./portfolio.html">Portfolio</a>
+	
+	<div class="navbar-left">
+		<a href="./index.html"><img src="images/stickman.png" height="30"></a>
+	</div>
+</div>
+
+<h1 style="font-size:20px; font-family:Lucida Calligraphy; text-align:left;">Justine Bui</h1>
+<p>Art 321 Week 5 - Animation</p>
