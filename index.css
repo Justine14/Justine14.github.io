@@ -53,12 +53,12 @@ div.week3 {
 
 
 /********************** For the portfolio ********************/
-/*.row {
-    display: -ms-flexbox; /* IE 10 */
-/*    display: flex;
-    -ms-flex-wrap: wrap; /* IE 10 */
-/*    flex-wrap: wrap;
-    padding: 0 4px;
+.row {
+	display: -ms-flexbox; /* IE 10 */
+	display: flex;
+	-ms-flex-wrap: wrap; /* IE 10 */
+	flex-wrap: wrap;
+	padding: 0 4px;
 }
 
 /* Create two equal columns that sits next to each other */
