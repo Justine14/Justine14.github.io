@@ -9,7 +9,7 @@ body {
 .navbar {
 	list-style-type: none;
 	overflow: hidden;
-	background-color: #EDC7B7;
+	background-color: transparent;
 	position: fixed;
 	margin: 0;
 	padding: 0;
