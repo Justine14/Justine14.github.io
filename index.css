@@ -44,7 +44,7 @@ body {
 .fa {
   padding: 20px;
   font-size: 30px;
-  width: 20px;
+  width: 30px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
@@ -52,12 +52,12 @@ body {
 }
 
 .fa-linkedin {
-  background: blue;
+  background: white;
   color: black;
 }
 
 .fa-instagram {
-  background: red;
+  background: white;
   color: black;
 }
 
