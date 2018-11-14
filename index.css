@@ -23,6 +23,7 @@ body {
 	padding: 0;
 	top: 0;
 	width: 100%;
+	z-index: 1;    /* push navbar to the front */
 }
 
 .navbar a {
