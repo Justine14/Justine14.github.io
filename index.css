@@ -5,6 +5,14 @@ body {
 	font-size: 16px;
 }
 
+/******************** Background ********************/
+.bg {
+	height: 100%; 
+	background-position: center;
+	background-size: cover;
+}
+
+
 /******************** Navigation Bar ****************/
 .navbar {
 	list-style-type: none;
@@ -42,12 +50,12 @@ body {
 }
 
 .fa-linkedin {
-  background: #87CEFA;
+  background: red;
   color: black;
 }
 
 .fa-instagram {
-  background: #87CEFA;
+  background: red;
   color: black;
 }
 
