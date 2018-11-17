@@ -1,3 +1,7 @@
+/* Code credit to w3schools */
+
+
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
