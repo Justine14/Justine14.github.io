@@ -1,3 +1,6 @@
+<!-- Code credit to https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_grid_responsive, margin changes made by me -->
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,9 +10,63 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
+<style>
+	* {
+	    box-sizing: border-box;
+	}
 
-<!-- Code for the navigation bar -->
+	body {
+	    margin: 0;
+	    font-family: Arial;
+	}
+
+	.header {
+	    text-align: center;
+	    padding: 32px;
+	}
+
+	.row {
+	    display: -ms-flexbox; /* IE10 */
+	    display: flex;
+	    -ms-flex-wrap: wrap; /* IE10 */
+	    flex-wrap: wrap;
+	    padding: 0 4px;
+	}
+
+	/* Create four equal columns that sits next to each other */
+	.column {
+	    -ms-flex: 25%; /* IE10 */
+	    flex: 25%;
+	    max-width: 25%;
+	    padding: 0 4px;
+	}
+
+	.column img {
+	    margin-top: 8px;
+	    vertical-align: middle;
+	}
+
+	/* Responsive layout - makes a two column-layout instead of four columns */
+	@media screen and (max-width: 800px) {
+	    .column {
+	        -ms-flex: 50%;
+	        flex: 50%;
+	        max-width: 50%;
+	    }
+	}
+
+	/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+	@media screen and (max-width: 600px) {
+	    .column {
+	        -ms-flex: 100%;
+	        flex: 100%;
+	        max-width: 100%;
+	    }
+	}
+</style>
+
+<body>
+	<!-- Code for the navigation bar -->
 	<div class="navbar">
 		<a href="#" class="fa fa-instagram"></a>
 		<a href="https://www.linkedin.com/in/justine-bui/" class="fa fa-linkedin"></a>
@@ -23,29 +80,30 @@
 		</div>
 	</div>
 
-
-<style>
-*{ box-sizing: border-box; }
-</style>
-
-
-<div class="row"> 
-	<div class="column">
-		<img src="images/rocks.jpg">
+	
+	<!-- Header -->
+	<div class="header">
+	  <h1>Responsive Image Grid</h1>
 	</div>
 
-	<div class="column">
-		<img src="images/underwater.jpg">
-	</div> 
+	<!-- Photo Grid -->
+	<div class="row"> 
+		<div class="column">
+			<img src="images/rocks.jpg">
+		</div>
 
-	<div class="column">
-		<img src="images/panda.png">
-	</div>
+		<div class="column">
+			<img src="images/underwater.jpg">
+		</div> 
 
-	<div class="column">
-		<img src="images/candle.jpg">
+		<div class="column">
+			<img src="images/panda.png">
+		</div>
+
+		<div class="column">
+			<img src="images/candle.jpg">
+		</div>
 	</div>
-</div>
 
 </body>
 </html>
