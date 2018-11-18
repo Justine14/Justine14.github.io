@@ -53,7 +53,7 @@ body {
 }
 
 .fa-linkedin {
-  background: red;
+  background: transparent;
   color: black;
 }
 
@@ -110,7 +110,3 @@ div.week3 {
 
 
 
-/******************** Page Titles ****************************/
-.pagetitle {
-	height: 30%;
-}
