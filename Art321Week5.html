@@ -1,3 +1,5 @@
+<!-- credit to https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_images_side_by_side -->
+
 <!DOCTYPE html>
 <html>
 
@@ -6,6 +8,26 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro:200">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 	<title>Justine Bui Art 321</title>
+
+
+	<style>
+		* {
+		    box-sizing: border-box;
+		}
+
+		.column {
+		    float: left;
+		    width: 33.33%;
+		    padding: 5px;
+		}
+
+		/* Clearfix (clear floats) */
+		.row::after {
+		    content: "";
+		    clear: both;
+		    display: table;
+		}
+	</style>
 </head>
 
 
@@ -31,5 +53,82 @@
 
 
 
+<div class="week3"><p>Animation Frames:</p></div>
+
+<div class="row">
+  <div class="column">
+    <img src="images/AnimationFrames/Frame1.png" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/AnimationFrames/Frame2.png" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/AnimationFrames/Frame3.png" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/AnimationFrames/Frame4.png" style="width:100%">
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <img src="images/AnimationFrames/Frame5.png" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/AnimationFrames/Frame6.png" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/AnimationFrames/Frame7.png" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/AnimationFrames/Frame8.png" style="width:100%">
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <img src="images/AnimationFrames/Frame9.png" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/AnimationFrames/Frame10.png" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/AnimationFrames/Frame11.png" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/AnimationFrames/Frame12.png" style="width:100%">
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <img src="images/AnimationFrames/Frame13.png" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/AnimationFrames/Frame14.png" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/AnimationFrames/Frame15.png" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/AnimationFrames/Frame16.png" style="width:100%">
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="column">
+    <img src="images/AnimationFrames/Frame17.png" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/AnimationFrames/Frame18.png" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/AnimationFrames/Frame19.png" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/AnimationFrames/Frame20.png" style="width:100%">
+  </div>
+</div>
 </body>
 </html>
