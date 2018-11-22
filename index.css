@@ -81,6 +81,13 @@ div.week3 {
 	width: 50%
 }
 
+/*********** Centering text horizontally and vertically **************/
+.centerHV {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
 
 
 /********************** For the portfolio ********************/
