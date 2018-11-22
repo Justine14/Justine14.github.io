@@ -47,14 +47,11 @@ body {
 }
 
 .dropdown .dropbtn {
-	font-size: 16px; 
+	float: right;
 	border: none;
 	outline: none;
 	color: black;
 	padding: 14px 30px;
-	background-color: transparent;
-	font-family: inherit; /* Important for vertical align on mobile phones */
-	margin: 0; /* Important for vertical align on mobile phones */
 }
 
 /* Make dropdown content hidden by default */
