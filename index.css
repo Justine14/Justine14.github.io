@@ -43,7 +43,6 @@ body {
 
 
 .dropdown {
-	float: left;
 	overflow: hidden;
 }
 
@@ -51,9 +50,9 @@ body {
 	font-size: 16px; 
 	border: none;
 	outline: none;
-	color: white;
-	padding: 14px 16px;
-	background-color: inherit;
+	color: black;
+	padding: 14px 30px;
+	background-color: transparent;
 	font-family: inherit; /* Important for vertical align on mobile phones */
 	margin: 0; /* Important for vertical align on mobile phones */
 }
