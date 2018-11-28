@@ -19,6 +19,19 @@ body {
 .navbar {
 	list-style-type: none;
 	overflow: hidden;
+	background-color: white;
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	width: 100%;
+	z-index: 1;    /* push navbar to the front */
+}
+
+
+.navbarmain {
+	list-style-type: none;
+	overflow: hidden;
 	background-color: transparent;
 	position: fixed;
 	margin: 0;
