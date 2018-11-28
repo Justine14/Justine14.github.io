@@ -28,6 +28,15 @@ body {
 	z-index: 1;    /* push navbar to the front */
 }
 
+.navbar a {
+	float: right;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 30px;
+	text-decoration: none;
+}
+
 
 .navbarmain {
 	list-style-type: none;
@@ -41,7 +50,7 @@ body {
 	z-index: 1;    /* push navbar to the front */
 }
 
-.navbar a {
+.navbarmain a {
 	float: right;
 	display: block;
 	color: black;
