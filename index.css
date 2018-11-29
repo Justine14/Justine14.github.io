@@ -131,10 +131,10 @@ body {
 /************************ Side navigation bar *************************/
 .sidenav {
     height: 100%;
-    width: 300px;
+    width: 350px;
     position: fixed;
     z-index: 1;
-    top: 300px;
+    top: 150px;
     left: 0;
     background-color: transparent;
     overflow-x: hidden;
