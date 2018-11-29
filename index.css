@@ -134,7 +134,7 @@ body {
     width: 350px;
     position: fixed;
     z-index: 1;
-    top: 150px;
+    top: 110px;
     left: 0;
     background-color: transparent;
     overflow-x: hidden;
@@ -150,7 +150,7 @@ body {
 }
 
 .sidenav a:hover {
-    color: #f1f1f1;
+    color: #00BFFF;
 }
 
 .main {
