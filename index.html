@@ -36,11 +36,10 @@ Credit to Pinterest for the data and analytics for the Week 4 Assignment
 	}
 
 	.bg {
-		height: 100%;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
-		url("JustineImage.jpg");
+		position: relative;
 	}
 
 	/* body {font-family: 'Source Sans Pro', sans-serif; margin:0} */
@@ -166,20 +165,26 @@ Credit to Pinterest for the data and analytics for the Week 4 Assignment
 
 	<div class="mySlides fade">
 	  <div class="numbertext">1 / 3</div>
-	  <img src="JustineImage.jpg" style="width:auto">
-	  <!-- <div class="text">Caption Text</div> -->
+	  <div class="bg">
+	  		<img src="JustineImage.jpg">
+	  	<!-- <div class="text">Caption Text</div> -->
+	  	</div>
 	</div>
 
 	<div class="mySlides fade">
 	  <div class="numbertext">2 / 3</div>
-	  <img src="rocks.jpg" style="width:auto">
+		<div class="bg">
+	  <img src="rocks.jpg">
 	  <!-- <div class="text">Caption Two</div> -->
+		</div>
 	</div>
 
 	<div class="mySlides fade">
 	  <div class="numbertext">3 / 3</div>
-	  <img src="images/SheetMusic.jpg" style="width:auto">
+	  <div class="bg">
+	  <img src="images/SheetMusic.jpg">
 	  <!-- <div class="text">Caption Three</div> -->
+	  </div>
 	</div>
 
 	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
